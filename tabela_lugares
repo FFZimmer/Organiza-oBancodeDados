@@ -1,0 +1,16 @@
+Esta tabela registra os lugares que podem ser hospedados, cadastrados pelos anfitriões.
+
+Colunas:
+id_lugar (PK): Identificador único do lugar.
+id_usuario (FK): Referência ao anfitrião (da tabela usuarios).
+titulo: Nome ou título do lugar (ex.: "Apartamento com vista para o mar").
+descricao: Descrição detalhada do lugar.
+endereco: Endereço do lugar.
+cidade: Cidade onde o lugar está localizado.
+estado: Estado onde o lugar está localizado.
+preco_diaria: Valor da diária em moeda local.
+data_criacao: Data de cadastro do lugar.
+
+Relacionamentos:
+FK com usuarios (um lugar pertence a um único anfitrião).
+Relacionado a hospedagens (um lugar pode ter várias hospedagens).
