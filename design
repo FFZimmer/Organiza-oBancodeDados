@@ -1,0 +1,4 @@
+Chaves Primárias (PK): Garantem a unicidade de cada registro.
+Chaves Estrangeiras (FK): Mantêm a integridade referencial entre as tabelas.
+Normalização: As tabelas estão normalizadas para evitar redundância e inconsistência.
+Flexibilidade: O design permite escalar o sistema para novos recursos, como gerenciamento de pagamentos ou mensagens entre usuários.
