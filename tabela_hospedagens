@@ -1,0 +1,14 @@
+Registra as reservas feitas pelos hóspedes para um período específico.
+
+Colunas:
+id_hospedagem (PK): Identificador único da hospedagem.
+id_usuario (FK): Referência ao hóspede (da tabela usuarios).
+id_lugar (FK): Referência ao lugar reservado (da tabela lugares).
+data_inicio: Data de início da hospedagem.
+data_fim: Data de término da hospedagem.
+status: Status da hospedagem (ex.: "confirmada", "cancelada").
+data_reserva: Data em que a reserva foi feita.
+
+Relacionamentos:
+FK com usuarios (uma hospedagem pertence a um hóspede).
+FK com lugares (uma hospedagem é feita para um lugar específico).
