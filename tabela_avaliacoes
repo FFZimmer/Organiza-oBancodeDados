@@ -1,0 +1,13 @@
+Armazena as avaliações feitas pelos usuários sobre as hospedagens que concluíram.
+
+Colunas:
+id_avaliacao (PK): Identificador único da avaliação.
+id_hospedagem (FK): Referência à hospedagem avaliada.
+id_usuario (FK): Referência ao avaliador (da tabela usuarios).
+nota: Nota dada pelo usuário (ex.: de 1 a 5).
+comentario: Comentário detalhado da avaliação.
+data_avaliacao: Data em que a avaliação foi feita.
+
+Relacionamentos:
+FK com hospedagens (uma avaliação é associada a uma hospedagem específica).
+FK com usuarios (uma avaliação é feita por um usuário).
