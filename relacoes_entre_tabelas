@@ -1,0 +1,8 @@
+usuarios ↔ lugares:
+Um usuário pode cadastrar vários lugares (1:N).
+usuarios ↔ hospedagens:
+Um usuário pode fazer várias hospedagens (1:N).
+lugares ↔ hospedagens:
+Um lugar pode ter várias hospedagens (1:N).
+hospedagens ↔ avaliacoes:
+Uma hospedagem pode ter uma única avaliação (1:1).
