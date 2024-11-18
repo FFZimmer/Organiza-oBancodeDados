@@ -1,0 +1,12 @@
+Esta tabela armazena informações sobre os usuários do sistema, que podem ser hóspedes ou anfitriões.
+
+Colunas:
+id_usuario (PK): Identificador único do usuário.
+nome: Nome do usuário.
+email: Endereço de e-mail (único).
+senha: Hash da senha para autenticação.
+telefone: Número de telefone.
+tipo_usuario: Define se o usuário é "hóspede", "anfitrião" ou ambos.
+data_criacao: Data de criação do cadastro.
+Relacionamentos:
+FK com as tabelas lugares (um usuário pode cadastrar vários lugares) e hospedagens (um usuário pode realizar várias hospedagens).
